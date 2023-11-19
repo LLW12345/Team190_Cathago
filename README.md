@@ -14,8 +14,8 @@ We have built a travel planner website called Team190_Cathago. This website allo
 To run the code, follow these steps:
 1. Clone the repository to your local machine.
 2. Navigate to the main folder of the project.
-3. Locate the "main.html" file.
-4. Open the "main.html" file with your preferred web browser.
+3. Locate the "index.html" file.
+4. Open the "index.html" file with your preferred web browser.
 
 Enjoy planning your trips with Team190_Cathago Travel Planner!# Team190_Cathago
 Team190_Cathago
