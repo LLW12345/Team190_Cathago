@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Timetable</title>
+  <link rel="stylesheet" href="table.css">
+  <script src="table.js"></script>
+</head>
+<body>
+  <h1>Travel Planning</h1>
+  <div style="display: flex; align-items: center;">
+    <label for="search" style="margin-right: 10px; font-size: 18px;">Search:</label>
+    <input type="text" id="search" name="search" value="Guangdong-Hong Kong-Macao Greater Bay Area" style="width: 20%; padding: 8px; border-radius: 4px; border: 1px solid #ccc;">
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Time</th>
+        <th>Date</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="event-">
+        <td><input type="text" id="event-title" placeholder="Enter Event"></td>
+        <td><input type="text" id="event-time" placeholder="Enter Time"></td>
+        <td><input type="text" id="event-date" placeholder="Enter Date"></td>
+        <td><button class="add-button" onclick="addToTimetable()">Add</button></td>
+      </tr>
+      <tr id="event-1">
+        <td>Window of the World</td>
+        <td>9:00 a.m - 11:00 a.m</td>
+        <td>2/19/24</td>
+        <td><button class="add-button" onclick="addToTimetable(1)">Add</button></td>
+      </tr>
+      <tr id="event-2">
+        <td>Shenzhen Happy Valley</td>
+        <td>9:00 a.m - 11:00 a.m</td>
+        <td>7/5/24</td>
+        <td><button class="add-button" onclick="addToTimetable(2)">Add</button></td>
+      </tr>
+      <tr id="event-3">
+        <td>Shenzhen Ping An Financial Center Yunji Sightseeing</td>
+        <td>11:00 a.m - 13:00 p.m</td>
+        <td>18/9/24</td>
+        <td><button class="add-button" onclick="addToTimetable(3)">Add</button></td>
+      </tr>
+      <tr id="event-4">
+        <td>Splendid China Folk Village</td>
+        <td>13:00 p.m - 14:00 p.m</td>
+        <td>11/2/24</td>
+        <td><button class="add-button" onclick="addToTimetable(4)">Add</button></td>
+      </tr>
+      <tr id="event-5">
+        <td>Overseas Chinese Town East</td>
+        <td>14:00 p.m - 15:00 p.m</td>
+        <td>18/9/24</td>
+        <td><button class="add-button" onclick="addToTimetable(5)">Add</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <br>
+  <div class="timetable">
+    <h2 class="timetable-title">Your Timetable</h2>
+    <table id="timetable-events">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Time</th>
+          <th>Date</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Populated dynamically through JavaScript -->
+      </tbody>
+    </table>
+  </div>
+  <a href="./main/index.html" class="return-button">
+    <img src="./img/home.PNG" width="20px" height="20px">
+  </a>
+</body>
+</html>

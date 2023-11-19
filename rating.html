@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="rating.css">
+  <script src="rating.js"></script>
+  <title>Rating</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-wrapper">
+        <input type="text" class="search-box" placeholder="search">
+        <div class="nav-items">
+            <img src="img/home.PNG" class="icon" alt="">
+            <img src="img/messenger.PNG" class="icon" alt="">
+            <img src="img/add.PNG" class="icon" alt="">
+            <img src="img/explore.PNG" class="icon" alt="">
+            <img src="img/like.PNG" class="icon" alt="">
+            <div class="icon user-profile"></div>
+        </div>
+    </div>
+  </nav>
+  <section class="main">
+    <div class="wrapper">
+      <div class="left-col">
+        <div class="status-wrapper">
+        <div class="status-card">
+            <div class="profile-pic"><img src="img/HKOP.png" alt=""></div>
+            <p class="username">Ocean Park Hong Kong </p>
+        </div>
+        <div class="status-card">
+            <div class="profile-pic"><img src="img/HKDN.png" alt=""></div>
+            <p class="username">Hong Kong Disneyland</p>
+        </div>
+        <div class="status-card">
+            <div class="profile-pic"><img src="img/FIT.jpg" alt=""></div>
+            <p class="username">Fushimi Inari Taisha</p>
+        </div>
+        <div class="status-card">
+          <div class="profile-pic"><img src="img/WOW.jpg" alt=""></div>
+          <p class="username">Window of the World</p>
+        </div>
+        <div class="status-card">
+          <div class="profile-pic"><img src="img/SZHV.jpg" alt=""></div>
+          <p class="username">Shenzhen Happy Valley</p>
+        </div>
+        <div class="status-card">
+          <div class="profile-pic"><img src="img/USH.jpg" alt=""></div>
+          <p class="username">Universal Studios Hollywood</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="main">
+  <div class="wrapper">
+    <div class="left-col">
+      <div class="post">
+        <div class="info">
+          <div class="user">
+            <div class="profile-pic"><img src="img/yardbird_icon.png" alt=""></div>
+              <p class="username">YardBird</p>
+            </div>
+            <img src="img/option.PNG" class="options" alt="">
+          </div>
+          <img src="img/yb_img.jpeg" class="post-image" alt="">
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="img/heart.png" class="icon" alt="" onclick="likePost()" >
+              <img src="img/comment.PNG" class="icon" alt="">
+              <img src="img/send.PNG" class="icon" alt="">
+              <img src="img/save.PNG" class="save icon" alt="">
+            </div>
+            <p class="likes" id="likeCount">1 likes</p>
+            <p class="description"><span>Yard_Bird:</span> "Fresh From the Garden Tomato Salad 🍅Tantalize your tastebuds with our new seasonal tomato salad - aburst of summer flavors straight from our kitchen garden. An array of heirloom tomatoes hand selected for peak ripeness, sliced mozzarella, tender basil leaves, all tossed lightly in our house balsamic vinaigrette.  Tagged photo with #YardBird for a chance to win a complimentary salad."</p>
+            <p class="description" style="color: gray;"> #Yardbird #NiceFood #Delicioius #Chilling</p>
+
+            <p class="description"><span>joe_pangggggggggg: </span> "That looks delicious!!!!!!XD"</p>
+            <p class="post-time">2 hours ago</p>
+          </div>
+        <div class="comment-wrapper">
+          <img src="img/smile.PNG" class="icon" alt="">
+          <input type="text" class="comment-box" placeholder="Add a comment">
+          <button class="comment-btn">post</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="./main/index.html" class="return-button">
+  <img src="./img/home.PNG" width="20px" height="20px">
+</a>
+</body>
+</html>

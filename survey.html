@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>Traveler Survey</title>
+    <script>
+      function showSkipPopup() {
+        var skipPopup = document.getElementById("skipPopup");
+        skipPopup.style.display = "block";
+      }
+      
+      function showGoPopup() {
+        var goPopup = document.getElementById("goPopup");
+        goPopup.style.display = "block";
+      }
+      
+      function closePopup(popupId) {
+        var popup = document.getElementById(popupId);
+        popup.style.display = "none";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Welcome to the Traveler Survey!</h1>
+    <p>Please choose your interests and skills:</p>
+
+    <form action="survey.html" method="get">
+      <label for="interests">Interests:</label><br>
+      <input type="checkbox" name="interests" value="adventure">Adventure<br>
+      <input type="checkbox" name="interests" value="culture">Culture<br>
+      <input type="checkbox" name="interests" value="nature">Nature<br>
+      <br>
+      <label for="Age">Age:</label><br>
+      <input type="checkbox" name="Age" value="12-18">12-18<br>
+      <input type="checkbox" name="Age" value="19-40">19-40<br>
+      <input type="checkbox" name="Age" value="above 40">above 40<br>
+      <br>
+      <input type="button" value="Skip" onclick="showSkipPopup()" >
+      <input type="button" value="submit" onclick="showGoPopup()"   >
+    </form>
+    
+    <!-- Skip Popup -->
+    <div id="skipPopup" class="popup" style="display: none;">
+      <h2>Skip Survey</h2>
+      <p>You have chosen to skip the survey. Thank you for your feedback!</p>
+      <button onclick="closePopup('skipPopup')">Close</button>
+    </div>
+    
+    <!-- Go Popup -->
+    <div id="goPopup" class="popup" style="display: none;">
+      <h2>Complete Survey</h2>
+      <p>Thank you for completing the survey!</p>
+      <button onclick="closePopup('goPopup')">Close</button>
+    </div>
+    <a href="./main/index.html" class="return-button">
+      <img src="./img/home.PNG" width="20px" height="20px">
+    </a>
+  </body>
+</html>

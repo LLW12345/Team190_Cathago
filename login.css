@@ -1,0 +1,60 @@
+body {
+    background-image: url('/images/login_background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    text-align: center;
+}
+  
+form {
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    margin-top:100px;
+}
+  
+form label,
+form input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+form input[type="text"],
+form input[type="tel"],
+form input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+  
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.return-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+}
