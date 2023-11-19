@@ -1,0 +1,628 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.desktop .group {
+  width: 2158px;
+  height: 1413px;
+}
+
+.desktop .overlap {
+  position: relative;
+  width: 2162px;
+  height: 1413px;
+}
+
+.desktop .desktop-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .overlap-wrapper {
+  height: 1024px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 1043px;
+  top: 11px;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 1388px;
+  height: 1043px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 1039px;
+  height: 342px;
+  top: 132px;
+  left: 0;
+}
+
+.desktop .overlap-group-2 {
+  position: absolute;
+  width: 805px;
+  height: 121px;
+  top: 0;
+  left: 38px;
+}
+
+.desktop .hero {
+  position: absolute;
+  width: 733px;
+  height: 91px;
+  top: 30px;
+  left: 72px;
+}
+
+.desktop .kisspng-cathay {
+  position: absolute;
+  width: 234px;
+  height: 88px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .button-primary-with {
+  display: flex;
+  flex-direction: column;
+  width: 142px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px;
+  position: absolute;
+  top: 16px;
+  left: 1246px;
+  background-color: #009a8f;
+  border-radius: 10px;
+}
+
+.desktop .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -0.14px;
+  margin-bottom: -0.14px;
+}
+
+.desktop .button-name {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.desktop .image {
+  width: 973px;
+  height: 260px;
+  top: 174px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 396px;
+  height: 166px;
+  top: 269px;
+  left: 914px;
+}
+
+.desktop .generate-a {
+  position: absolute;
+  width: 349px;
+  top: 282px;
+  left: 945px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 105px;
+  height: 27px;
+  top: 395px;
+  left: 1098px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 96px;
+  top: 394px;
+  left: 1104px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #c5c5d1;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 427px;
+  height: 120px;
+  top: 669px;
+  left: 153px;
+  background-color: #637f66;
+  border-radius: 50px;
+}
+
+.desktop .p {
+  position: absolute;
+  width: 392px;
+  top: 689px;
+  left: 176px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 113px;
+  height: 27px;
+  top: 745px;
+  left: 426px;
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  width: 111px;
+  height: 27px;
+}
+
+.desktop .rectangle-4 {
+  position: absolute;
+  width: 105px;
+  height: 27px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  width: 96px;
+  top: 0;
+  left: 15px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #c5c5d1;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.desktop .rectangle-5 {
+  position: absolute;
+  width: 1440px;
+  height: 112px;
+  top: 901px;
+  left: 0;
+  background-color: #31504e;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  width: 234px;
+  height: 110px;
+  top: 950px;
+  left: 18px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.desktop .wing-removebg {
+  position: absolute;
+  width: 99px;
+  height: 98px;
+  top: 908px;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .vector {
+  position: absolute;
+  width: 51px;
+  height: 63px;
+  top: 924px;
+  left: 352px;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  width: 212px;
+  height: 111px;
+  top: 950px;
+  left: 383px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  width: 60px;
+  height: 63px;
+  top: 926px;
+  left: 736px;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  width: 248px;
+  height: 110px;
+  top: 950px;
+  left: 841px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.desktop .vector-2 {
+  position: relative;
+  width: 57px;
+  height: 58px;
+  top: 929px;
+  left: 1188px;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  width: 245px;
+  height: 109px;
+  top: 950px;
+  left: 1123px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.desktop .div-wrapper {
+  position: absolute;
+  width: 1608px;
+  height: 946px;
+  top: 467px;
+  left: 554px;
+}
+
+.desktop .overlap-3 {
+  position: relative;
+  width: 894px;
+  height: 557px;
+}
+
+.desktop .rectangle-6 {
+  position: absolute;
+  width: 886px;
+  height: 557px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .image-2 {
+  width: 384px;
+  height: 339px;
+  top: 47px;
+  left: 43px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .group-3 {
+  position: absolute;
+  width: 141px;
+  height: 30px;
+  top: 310px;
+  left: 510px;
+}
+
+.desktop .img-wrapper {
+  position: relative;
+  height: 30px;
+  background-color: #f8f8f8;
+  border-radius: 78px;
+  border: 1px solid;
+  border-color: #00000033;
+}
+
+.desktop .group-4 {
+  position: absolute;
+  width: 111px;
+  height: 14px;
+  top: 8px;
+  left: 14px;
+}
+
+.desktop .group-5 {
+  position: absolute;
+  width: 380px;
+  height: 50px;
+  top: 360px;
+  left: 515px;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  width: 378px;
+  top: 24px;
+  left: 0;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #8d8d8d;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: normal;
+}
+
+.desktop .group-6 {
+  position: absolute;
+  width: 242px;
+  height: 19px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  width: 80px;
+  top: 0;
+  left: 0;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #8d8d8d;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  width: 48px;
+  top: 0;
+  left: 188px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #9a9a9a;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  width: 77px;
+  top: 0;
+  left: 96px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #9a9a9a;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .group-7 {
+  position: absolute;
+  width: 37px;
+  height: 63px;
+  top: 163px;
+  left: 834px;
+  background-color: #efefef;
+  border-radius: 42px;
+}
+
+.desktop .vector-3 {
+  position: absolute;
+  width: 15px;
+  height: 23px;
+  top: 205px;
+  left: 845px;
+}
+
+.desktop .group-8 {
+  position: absolute;
+  width: 37px;
+  height: 63px;
+  top: 185px;
+  left: 0;
+  background-color: #efefef;
+  border-radius: 42px;
+  transform: rotate(-180deg);
+}
+
+.desktop .vector-4 {
+  position: absolute;
+  width: 15px;
+  height: 23px;
+  top: 208px;
+  left: 11px;
+}
+
+.desktop .text-wrapper-11 {
+  position: absolute;
+  width: 347px;
+  top: 44px;
+  left: 547px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .group-9 {
+  position: absolute;
+  width: 71px;
+  height: 60px;
+  top: 35px;
+  left: 465px;
+}
+
+.desktop .element-removebg-preview-wrapper {
+  position: relative;
+  width: 77px;
+  height: 66px;
+  top: -3px;
+  left: -3px;
+  background-image: url(./img/ellipse-19.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .element-removebg-preview {
+  position: absolute;
+  width: 51px;
+  height: 47px;
+  top: 6px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.desktop .group-10 {
+  position: absolute;
+  width: 12px;
+  height: 19px;
+  top: 61px;
+  left: 720px;
+}
+
+.desktop .ellipse {
+  top: 0;
+  position: absolute;
+  width: 12px;
+  height: 5px;
+  left: 0;
+  background-color: #2d2d2d;
+  border-radius: 6px/2.53px;
+}
+
+.desktop .ellipse-2 {
+  top: 7px;
+  position: absolute;
+  width: 12px;
+  height: 5px;
+  left: 0;
+  background-color: #2d2d2d;
+  border-radius: 6px/2.53px;
+}
+
+.desktop .ellipse-3 {
+  top: 14px;
+  position: absolute;
+  width: 12px;
+  height: 5px;
+  left: 0;
+  background-color: #2d2d2d;
+  border-radius: 6px/2.53px;
+}
+
+.desktop .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: absolute;
+  width: 307px;
+  height: 149px;
+  top: 101px;
+  left: 511px;
+}
+
+.desktop .text {
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -62px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: normal;
+}
+
+.desktop .span {
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  top:auto;
+}
+
+.desktop .span-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: normal;
+  
+}
